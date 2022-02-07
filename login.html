@@ -1,0 +1,15 @@
+{% block title %} Login Page {% endblock %}
+{% block body %}
+<form action=" " method="post">
+    <p>
+        {{ form.username.label }}
+        {{ form.usename(size=32)}}
+    </p>
+    <p>
+        {{ form.password.label }}
+        {{ form.password(size=32)}}
+    </p>
+</form>
+
+
+{% endblock %}
